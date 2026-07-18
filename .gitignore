@@ -1,9 +1,15 @@
 # macOS
 .DS_Store
 
+# Deploy bundle
+hitmix-deploy.zip
+
 # Source assets (originals) — not deployed
 input/
 
 # Media — hosted on a separate platform, not committed to git
 images/
 videos/
+
+# Deploy staging folder
+dist/
