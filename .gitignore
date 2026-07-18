@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Source assets (originals) — not deployed
+input/
+
+# Media — hosted on a separate platform, not committed to git
+images/
+videos/

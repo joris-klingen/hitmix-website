@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flamingo Hitmix</title>
+  <meta name="description" content="Flamingo Hitmix — live 90s club-classics with a sugar coated beat, straight from Flamingo street, Amsterdam North." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ================= HERO ================= -->
+  <header class="hero" id="top">
+    <nav class="nav">
+      <a class="brand" href="#top">FLAMINGO&nbsp;HITMIX</a>
+      <div class="nav-links">
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#video" data-i18n="nav_video">Video</a>
+        <a href="#photos" data-i18n="nav_photos">Photos</a>
+        <a href="#book" data-i18n="nav_book">Book</a>
+        <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+          <span data-lang="en">NL</span><span data-lang="nl">EN</span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="hero-inner">
+      <h1 class="hero-title">FLAMINGO<br /><span>HITMIX</span></h1>
+      <p class="hero-sub" data-i18n="hero_sub">Your favourite hits, rebuilt for the dancefloor. Live 90s club-classics with a sugar coated beat.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#book" data-i18n="cta_book">Book Flamingo Hitmix</a>
+        <a class="btn btn-ghost" href="https://www.instagram.com/flamingohitmix/" target="_blank" rel="noopener" data-i18n="cta_insta">Instagram</a>
+      </div>
+    </div>
+    <div class="hero-glow" aria-hidden="true"></div>
+  </header>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section section-about" id="about">
+    <h2 class="section-title" data-i18n="about_title">About</h2>
+    <p class="bio" data-i18n="bio">
+      This three-bird oscillation orchestra is far more than your average cover band, yet fits on three square metres. They perform 90s classics live, with a sugar coated beat. You might feel ecstatic, rejoiced, or even touched by long-forgotten or freshly recalled dance-upon tunes. At the heart of the show: vocalist Aliesje, a multi-decadal dance music chameleon. She is energetically supported by Joris and Martinus on synths and sounds. Straight from Flamingo street in Amsterdam North, Flamingo Hitmix traverses the rich past and present of floor-filling club-classics.
+    </p>
+  </section>
+
+  <!-- ================= VIDEO ================= -->
+  <section class="section" id="video">
+    <h2 class="section-title" data-i18n="video_title">On stage</h2>
+    <p class="section-lead" data-i18n="video_lead">A taste of the live show.</p>
+    <div class="video-grid">
+      <figure class="video-item">
+        <video controls preload="metadata" playsinline poster="images/live1.jpg">
+          <source src="videos/tuinen-van-west.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Tuinen van West</figcaption>
+      </figure>
+      <figure class="video-item">
+        <video controls preload="metadata" playsinline poster="images/live2.png">
+          <source src="videos/loods-12.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Loods 12</figcaption>
+      </figure>
+      <figure class="video-item">
+        <video controls preload="metadata" playsinline poster="images/live1.jpg">
+          <source src="videos/loungefest.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Loungefest — Love You More</figcaption>
+      </figure>
+      <figure class="video-item">
+        <video controls preload="metadata" playsinline poster="images/live2.png">
+          <source src="videos/landjuweel.mp4" type="video/mp4" />
+        </video>
+        <figcaption>Landjuweel — Gotta Let You Go</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= PHOTOS ================= -->
+  <section class="section" id="photos">
+    <h2 class="section-title" data-i18n="photos_title">Photos</h2>
+    <p class="section-lead" data-i18n="photos_lead">Live and in colour.</p>
+    <div class="photo-grid">
+      <figure class="photo"><img src="images/live1.jpg" alt="Flamingo Hitmix live" loading="lazy" /></figure>
+      <figure class="photo"><img src="images/live2.png" alt="Flamingo Hitmix live" loading="lazy" /></figure>
+    </div>
+  </section>
+
+  <!-- ================= BOOK / CONTACT ================= -->
+  <section class="section section-book" id="book">
+    <h2 class="section-title" data-i18n="book_title">Book us</h2>
+    <p class="section-lead" data-i18n="book_lead">Party, festival, wedding, corporate takeover — let's talk.</p>
+    <div class="book-actions">
+      <a class="btn btn-primary btn-lg" href="mailto:flamingohitmix@gmail.com?subject=Booking%20request%20—%20Flamingo%20Hitmix" data-i18n="book_email">Email for booking</a>
+      <a class="btn btn-ghost btn-lg" href="https://www.instagram.com/flamingohitmix/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Flamingo Hitmix</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
