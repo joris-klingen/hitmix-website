@@ -149,7 +149,6 @@ a { color: inherit; text-decoration: none; }
 .section-lead { color: var(--muted); font-size: 1.1rem; margin-top: 0.4rem; margin-bottom: 2.5rem; }
 
 /* ---------- About ---------- */
-.section-about { max-width: 680px; }
 .bio {
   font-size: 1.05rem;
   line-height: 1.7;
