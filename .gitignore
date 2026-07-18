@@ -13,3 +13,6 @@ videos/
 
 # Deploy staging folder
 dist/
+
+# Local build script (double-clickable)
+*.command
