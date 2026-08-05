@@ -8,7 +8,7 @@ const I18N = {
     nav_video: "Video",
     nav_photos: "Photos",
     nav_book: "Book",
-    hero_sub: "Floor filling club classics in an ecstatic live performance. 90’s classics with a sugar coated beat.",
+    hero_sub: "Floor filling club classics in an ecstatic live performance. Dance classics reimagined with a sugar coated beat.",
     cta_book: "Contact us",
     cta_insta: "@flamingohitmix",
     bio: "This three-bird oscillation orchestra is far more than your average cover band, yet fits on three square metres. They perform 90s classics live, with a sugar coated beat. You might feel ecstatic, rejoiced, or even touched by long-forgotten or freshly recalled dance-upon tunes. At the heart of the show: vocalist Aliesje, a multi-decadal dance music chameleon. She is energetically supported by Joris and Martinus on synths and sounds. Straight from Flamingo street in Amsterdam North, Flamingo Hitmix traverses the rich past and present of floor-filling club-classics.",
